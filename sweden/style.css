@@ -1,0 +1,128 @@
+html,
+body {
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Heebo', sans-serif;
+    overflow:hidden;
+}
+
+.horizontal {
+  display: flex;
+  height: 20%;
+  background-color: #fecd00;
+  font-size: 4vw;
+  line-height: 245%;
+}
+
+.horizontal > .left {
+  width: 31.3%;
+}
+
+.horizontal > .right {
+  width: 50%;
+  margin-left: 12.5%;
+}
+
+a {
+  text-align: center;
+  font-size: 2vw;
+  color: black;
+}
+
+a.small:hover {
+  color: #006aa8;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+}
+
+
+a.small {
+  font-size: 1vw;
+  text-align: left;
+}
+
+.flag {
+  display: flex;
+  background-color: #006aa8;
+  height: 40%;
+}
+
+.flag > .left1 {
+  background-image: url("furniture1.jpg");
+  background-size: cover;
+  background-color: transparent;
+  background-blend-mode: multiply;
+  transition: all 1s;
+  width: 31.3%;
+  text-align: center;
+  padding: 16vh 0;
+  color: white;
+  font-size: 4vw;
+
+}
+
+.flag > .left2 {
+  background-image: url("furniture2.jpg");
+  background-size: cover;
+  background-color: transparent;
+  background-blend-mode: multiply;
+  transition: all 1s;
+  width: 31.3%;
+  text-align: center;
+  padding: 16vh 0;
+  color: white;
+  font-size: 4vw;
+}
+
+.flag > .vertical {
+  background-color: #fecd00;
+  width: 12.5%;
+  height: 250%;
+  overflow:scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  padding: 0.5vw;
+}
+
+.vertical::-webkit-scrollbar {
+  display: none;
+}
+
+.flag > .right2 {
+  background-image: url("furniture4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  background-blend-mode: multiply;
+  transition: all 1s;
+  width: 56.25%;
+  margin-left: 12.5%;
+  text-align: center;
+  padding: 16vh 0;
+  color: white;
+  font-size: 4vw;
+}
+
+.flag > .right1 {
+  background-image: url("furniture3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  background-blend-mode: multiply;
+  transition: all 1s;
+  width: 56.25%;
+  text-align: center;
+  padding: 16vh 0;
+  color: white;
+  font-size: 4vw;
+}
+
+
+.flag > .left1:hover, .left2:hover, .right1:hover, .right2:hover {
+  background-color: #006aa8;
+  color: #fecd00;
+  cursor: pointer;
+}
