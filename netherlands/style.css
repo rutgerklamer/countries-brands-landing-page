@@ -1,0 +1,154 @@
+body {
+  background-color: #000000;
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  overflow:hidden;
+}
+
+.middle, .bottom {
+  width: 100%;
+  height:33.3vh;
+}
+
+
+.top1 {
+  height: 5.33vh;
+  color: black;
+  text-align: center;
+  font-size: 4vw;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: darkred;
+  font-size: 11vw;
+  text-align:center;
+  display: flex;
+}
+
+.top1 > .menu {
+    width: 14.28vw;
+}
+
+.menu a {
+  color:white;
+  font-size: 1.2vw;
+}
+
+.menu a:hover {
+  color:#21468b;
+  cursor:pointer;
+}
+
+.top2 {
+  height: 28.33vh;
+  color: black;
+  text-align: center;
+  font-size: 4vw;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #ae1c28;
+  font-size: 8vw;
+  text-align:center;
+}
+
+
+.middle {
+  background-color: white ;
+}
+
+.bottom {
+  background-color: #21468b;
+  display: flex;
+}
+
+.middle {
+  font-size: 4vw;
+  text-align:center;
+}
+
+a {
+  font-size: 0.75vw;
+}
+
+.leftLeg {
+  background-color: black;
+  height: 51.75vh;
+  width: 5vw;
+  left: -1vw;
+  position: absolute;
+  display: inline;
+  pointer-events: none;
+}
+
+.rightLeg {
+  background-color: black ;
+  height: 51.75vh;
+  width: 5vw;
+  right: -15vw;
+  position:relative;
+  pointer-events: none;
+
+}
+
+.platform {
+  background-color: black;
+  height: 18.3vh;
+  width: 20vw;
+  bottom: 33.3vh;
+  left: 10vw;
+  margin-right: 10000px;
+  position: absolute;
+  text-align: left;
+  color: white;
+  padding-left: 4vw;
+  line-height: 1.5vw;
+}
+
+
+.platform2 {
+  background-color: black;
+  height: 18.3vh;
+  width: 20vw;
+  bottom: 33.3vh;
+  left: 66.6vw;
+  position: absolute;
+  color: white;
+  padding-left: 4vw;
+  line-height: 1.5vw;
+}
+
+.bottom .left {
+  margin-left: 34vw;
+  padding-left: 0.1vw;
+  line-height: 1.5vw;
+}
+
+.bottom .center {
+  margin-left: 1.3vw;
+  text-align: center;
+  padding-left: 0.1vw;
+  line-height: 1.5vw;
+}
+
+.bottom .right {
+  text-align: right;
+  margin-left: 0.3vw;
+  padding-left: 0.1vw;
+  line-height: 1.5vw;
+}
+
+.bottom a:hover {
+  color: #ae1c28;
+}
+
+image {
+  display: inline;
+}
+
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
